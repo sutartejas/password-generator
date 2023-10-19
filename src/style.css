@@ -1,0 +1,125 @@
+.password-generator {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    color: white;
+    background-color: lightslategrey
+}
+
+.copy-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: white
+}
+
+.password_title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    height: 30px;
+}
+
+.copybtn {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 15px;
+    text-shadow: rgb(0 0 0 / 25%) 0px 3px 8px;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    transition: all 0.5s ease 0s;
+
+    :hover {
+        box-shadow: rgba(26, 9, 154, 0.651) 0px 1px 40px;
+        transition: all 0.1s ease 0s;
+    }
+}
+
+
+
+
+
+.characterLength span {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.characterLength {
+    display: flexbox;
+    flex-direction: column;
+    font-size: 20;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: white
+}
+
+.characterLength span {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.strength {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.slider {
+    display: inline-grid;
+    width: 100%;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.checkBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.checkBox div {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 25px;
+}
+
+.generateBtn {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+    margin: 20px;
+    padding-bottom: 20px;
+}
